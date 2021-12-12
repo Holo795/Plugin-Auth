@@ -6,7 +6,7 @@ sur votre Launcher
   
   
 ## Web | FTP
-- Cliquez sur "Clone or download" sur la page "https://github.com/Holo795/Mineweb_Plugin-Auth/".
+- Cliquez sur "Clone or download" sur la page "https://github.com/Holo795/Plugin-Auth/".
 - Téléchargez et enregistrez le ZIP, puis extrayez le.
 - Renommez le fichier "Mineweb_Plugin-Auth-master" par "Auth".
 - Déplacez le fichier dans votre FTP à l'adresse "/app/Plugin".
@@ -15,7 +15,7 @@ sur votre Launcher
 ##  
   
 ## Java | Launcher
-- Ajoutez la librairie Java "[AuthMineweb_1.4.0.jar](https://github.com/Holo795/Mineweb_Plugin-Auth/raw/master/Documentation/AuthMineweb_1.4.0.jar)" à votre projet.
+- Ajoutez la librairie Java "[AuthMineweb_1.4.0.jar](https://github.com/Holo795/Plugin-Auth/raw/master/Documentation/AuthMineweb_1.4.0.jar)" à votre projet.
 
 ###  Exemples :
  
