@@ -24,7 +24,7 @@ Connexion avec Username et Password :
 public static void auth(String username, String password) {
 
 	AuthMineweb authenticator = new AuthMineweb("http://localhost/");
-    AuthResponse response = authenticator.authenticate(username, password);
+	AuthResponse response = authenticator.authenticate(username, password);
 	authInfos = new AuthInfos(response.getPseudo(), response.getAccessToken(), response.getClientToken(), response.getUuid());
 
 }
@@ -35,7 +35,7 @@ Connexion AccessToken et ClientToken :
 public static void reauth(String accessToken, String clientToken) {
 
 	AuthMineweb authenticator = new AuthMineweb("http://localhost/");
-    AuthResponse response = authenticator.refresh(accessToken, clientToken);
+	AuthResponse response = authenticator.refresh(accessToken, clientToken);
 	authInfos = new AuthInfos(response.getPseudo(), response.getAccessToken(), response.getClientToken(), response.getUuid());
 
 }
